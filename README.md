@@ -14,6 +14,7 @@ $this->load->library('galaubackup');
 ```php
 $this->galaubackup->backup();
 ```
+4. backup result stored in your-project/assets/backup/backup-on-DATE.sql
 
 ## Run with cron job 
 1. crontab -e
