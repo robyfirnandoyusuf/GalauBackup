@@ -4,7 +4,7 @@
 
 ## How to use
 1. put this Galaubackup.php to `libraries` directory
-2. load library on construct
+2. load library in the construct
 
 ```php
 $this->load->library('galaubackup');
