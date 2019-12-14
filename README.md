@@ -18,7 +18,7 @@ $this->galaubackup->backup();
 
 ## Run with cron job 
 1. crontab -e
-2. 0 0 * * * php `directory to your project/index.php your-controller.php`(e.g run on every midnight)
+2. 0 0 * * * php `directory to your project/index.php your-controller.php`(e.g run every midnight)
 
 ## Tips 
 useful online tool for cron schedule expressions
