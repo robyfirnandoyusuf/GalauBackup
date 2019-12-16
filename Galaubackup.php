@@ -32,7 +32,7 @@
 				mkdir('assets/backup');
 			}
 
-			$dbname='backup-on-'.date('d-m-y H:i').'.zip';
+			$dbname='backup-on-'.date('d-m-y').'.zip';
 			$save= 'assets/backup/'.$dbname;
 			$res = write_file($save,$backup);
 
